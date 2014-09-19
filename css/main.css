@@ -1,0 +1,31 @@
+html, body, section, article, ul, li, a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+#wrap {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#sentences {
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+}
+
+.sentence-link {
+  padding: 5px 0;
+  display: block;
+}
+
+#sentence-display {
+  width: 450px;
+  float: left;
+}
