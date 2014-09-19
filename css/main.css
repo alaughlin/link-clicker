@@ -1,4 +1,4 @@
-html, body, section, article, ul, li, a {
+html, body, section, article, ul, li, a, p {
   margin: 0;
   padding: 0;
   border: 0;
@@ -9,15 +9,23 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 #wrap {
   width: 900px;
   margin: 0 auto;
+  margin-top: 10px;
 }
 
 #sentences {
   width: 300px;
   float: left;
+  padding-right: 10px;
   margin-right: 20px;
+  border-right: 1px solid #ccc;
 }
 
 .sentence-link {
@@ -25,7 +33,15 @@ ul {
   display: block;
 }
 
+.sentence-link:hover {
+  color: blue;
+}
+
 #sentence-display {
-  width: 450px;
+  width: 569px;
   float: left;
+}
+
+#sentence-display > p {
+  padding: 5px 0;
 }

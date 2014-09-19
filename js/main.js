@@ -12,7 +12,7 @@ $(document).ready(function () {
     $.ajax({
       url: "/",
       success: function () {
-        $('#sentence-display').html(sentence);
+        $('#sentence-display').html('<p>' + sentence + '</p>');
       }
     });
   });
